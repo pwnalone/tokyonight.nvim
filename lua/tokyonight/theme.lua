@@ -26,6 +26,11 @@ function M.setup()
   local c = theme.colors
 
   theme.highlights = {
+    SniprunVirtualTextOk = { fg = "#dddddd", bg = "#333333" },
+    SniprunVirtualTextErr = { fg = "#dddddd", bg = "#333333" },
+    SniprunFloatingWinOk = { fg = "#dddddd", bg = "#333333" },
+    SniprunFloatingWinErr = { fg = "#dddddd", bg = "#333333" },
+
     Foo = { bg = c.magenta2, fg = c.fg },
 
     Comment = { fg = c.comment, style = options.styles.comments }, -- any comment
